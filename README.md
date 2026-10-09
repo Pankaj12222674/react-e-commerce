@@ -1,21 +1,57 @@
-First UI
-<img width="1891" height="867" alt="image" src="https://github.com/user-attachments/assets/3d4afb14-5a32-47a8-984a-519c55b79c78" />
+# E-commerce UI — React + Vite
 
+A React-based e-commerce interface built with Vite. This repository is a frontend project for practicing component-based UI development and navigation.
 
+## Tech Stack
 
-# React + Vite
+- React 19
+- Vite
+- Tailwind CSS
+- React Router
+- Lucide icons
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Features
 
-Currently, two official plugins are available:
+- React component-based interface
+- Responsive styling with Tailwind CSS
+- Client-side navigation with React Router
+- Fast local development and production builds with Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> Features such as authentication, cart persistence, backend APIs, and payments should only be listed here after they are implemented and tested.
 
-## React Compiler
+## Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Prerequisites
 
-## Expanding the Oxlint configuration
+- Node.js compatible with the installed Vite version
+- npm
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+### Installation
+
+```bash
+git clone https://github.com/Pankaj12222674/react-e-commerce.git
+cd react-e-commerce
+npm install
+npm run dev
+```
+
+Open the local URL printed by Vite in your terminal.
+
+### Production Build
+
+```bash
+npm run build
+npm run preview
+```
+
+## Project Quality Checklist
+
+- [ ] Add screenshots of the current UI
+- [ ] Document implemented shopping flows
+- [ ] Add a live demo when deployed
+- [ ] Add tests for important components and user flows
+- [ ] Document environment variables if a backend is added
+
+## Author
+
+**Pankaj Kumar** — [GitHub](https://github.com/Pankaj12222674) · [LinkedIn](https://www.linkedin.com/in/pankaj-kumar-a89a51238/)
